@@ -8,6 +8,8 @@ Check out my articles on Medium for more information and updates:
 
 https://medium.com/@James.Christopher.Ray
 
+For more information about me, feel free to check out [my About Me page](https://about.me/james.ray).
+
 For example:
 
 - [Brainstorming for a climate accounting platform on Decentr and Holochain, and introducing Gaja](https://medium.com/@James.Christopher.Ray/brainstorming-for-a-climate-accounting-platform-on-decentr-and-holochain-4c53fb518b34)
