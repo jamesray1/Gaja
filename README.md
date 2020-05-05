@@ -10,5 +10,5 @@ https://medium.com/@James.Christopher.Ray
 
 For example:
 
-- [Brainstorming for a climate accounting platform on Decentr and Holochain](https://medium.com/@James.Christopher.Ray/brainstorming-for-a-climate-accounting-platform-on-decentr-and-holochain-4c53fb518b34)
+- [Brainstorming for a climate accounting platform on Decentr and Holochain, and introducing Gaja](https://medium.com/@James.Christopher.Ray/brainstorming-for-a-climate-accounting-platform-on-decentr-and-holochain-4c53fb518b34)
 - [Leveraging Decentr for electricity grids, commoning, climate accounting, renewable energy, and more](https://medium.com/@James.Christopher.Ray/leveraging-decentr-for-grid-commoning-climate-accounting-renewable-energy-and-more-8ee138e6a8fb)
