@@ -1,0 +1,70 @@
+// Pseudo-pseudo-code
+
+// get greenhouse gas emissions now
+// e.g. https://www.co2.earth/daily-co2
+// 419.85 ppm May 17, 2021 (fetch this daily figure from oracle / API)
+// current_CO2
+// set constant greenhouse gas target, say 280 ppm
+// calculate the difference
+// get global carbon budget in GtCO2-e
+// "To convert from ppm to gigatonne of carbon, the conversion tables of the Carbon Dioxide Information Analysis Center
+// advise that 1 part per million of atmospheric CO2 is equivalent to 2.13 Gigatonnes Carbon.
+// Using our 44 over 12 rule, this means 1ppm = 7.8 Gigatonnes of Carbon Dioxide in the atmosphere."
+https://skepticalscience.com/print.php?r=45
+// Assuming that this figure is accurate
+// 419.85 - 350 = 69.85 ppm
+* 7.8 = 544.83 GtCO2
+
+Need to account for CO2-e, not just CO2
+
+E.g.:
+"The annual average CO2-e measured at Cape Grim reached 503 ppm in 2019, which is almost twice the pre-industrial level of 278 ppm in 1750"
+http://www.bom.gov.au/state-of-the-climate/greenhouse-gas-levels.shtml
+
+503-278 = 325 ppm
+
+= > 1755 GtCO2 needed to reduce
+
+// Calculate GAPT rewards
+// Price fluctuates in line with how much is needed to reduce
+// higher difference, higher price
+// 1,000,000 tokens current supply
+
+Reward for removing 1 tCO2-e:
+
+e6 tokens / 1755e9 kgC02
+
+5.6980057e-7 token / tCO2
+
+Or 5.6980057e-10 token / kgCO2
+
+Note-> interchange tokens with mutual credit (they will be 1:1 interchangeable up to 12 months from main net release)
+// code should use credit limits and credit, not tokens
+
+Price of tokens are not set inside the protocol at this point.
+
+// loop every period (e.g. a year):
+// while difference is positive
+// reward emissions reduction and avoidance
+// stage 1: rewards are constant
+// stage 2: mint tokens as the difference increase, and as the difference decreases.
+// otherwise if the difference is negative (which won't happen any time soon!), rewards = 0
+
+// emissions reward mechanisms for different agent types
+// agentType - > solar system
+
+// connect to a solar system
+// measure its generation in real-time
+// calculate how much emissions it displaces from fossil fuels per kWh
+// e.g. https://www.epa.gov/energy/greenhouse-gases-equivalencies-calculator-calculations-and-references
+// other emission-reduction-equivalencies are also in this page above
+// for each (10, 100, or 1000) kWh produced (depending on network fees), increase credit limit
+// if connection drops out, stop rewards
+
+// Project Vesta
+// Proprietary info on how
+// Do a zero-knowledge proof
+// see https://forum.holochain.org/t/can-you-integrate-zero-knowledge-proofs-on-a-holochain-app-without-requiring-universal-consensus-as-a-validation-rule/5932/2
+// for details
+// Otherwise independently develop a way to measure changes in carbonate chemistry to quantify CO2-e sequestration
+
